@@ -1,4 +1,4 @@
-ledger =[]
+ledger = []
 
 
 class Category:
@@ -8,10 +8,11 @@ class Category:
         return ledger
 
 
-
 def create_spend_chart(categories):
     pass
 
 
 if __name__ == "__main__":
-    pass
+    scc = Category()
+    scc.deposit("amount_example", "description_example")
+    print(scc.deposit("amount_example", "description_example"))
